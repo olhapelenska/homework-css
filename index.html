@@ -5,40 +5,80 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    img.center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    header {
+      color: #ffffff;
+      background-color: rgb(152, 52, 48);
+    }
+
+    footer {
+      color: #ffffff;
+      background-color: rgb(0, 0, 0);
+    }
+
+    .blue {
+      color: blue;
+    }
+
+    .italic {
+      font-style: italic;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+  </style>
 </head>
 
 <body>
-  <header>
+  <header class="center">
     <h1>My simple website</h1>
   </header>
   <section>
-    <img src="sunset.jpg" alt="sunset">
+    <img src="sunset.jpg" alt="sunset" class="center">
   </section>
   <section>
     <p>
-      Lorem ipsum dolor sit amet, consectetur <span>adipisicing elit</span>. Quis cupiditate iure, magnam dolores velit
-      maxime <span>quo fugit nesciunt facilis blanditis, voluptatem laborum</span> iusto eos illo quae cumque nulla
-      autem
-      esse delectus <span>eius</span>? Modi, cum! Dolorum sapiente nam beatae totam deserunt aut assumenda explicabo
+      Lorem ipsum dolor sit amet, consectetur <span class="italic">adipisicing elit</span>. Quis cupiditate iure, magnam
+      dolores velit
+      maxime <span class="bold">quo fugit nesciunt facilis blanditis, voluptatem laborum</span> iusto eos illo quae
+      cumque nulla autem esse delectus <span class="blue italic">eius</span>? Modi, cum! Dolorum sapiente nam beatae
+      totam deserunt aut
+      assumenda
+      explicabo
       dinissimos, cum quis animi placeat obcaecati.
     </p>
   </section>
   <section>
-    <img src="car01.jpg" alt="yellow car">
-    <img src="car02.jpg" alt="white car">
-    <img src="car03.jpg" alt="blue car">
-    <img src="car04.jpg" alt="white car">
-    <img src="car05.jpg" alt="red car">
+    <p class="center">
+      <img src="car01.jpg" alt="yellow car">
+      <img src="car02.jpg" alt="white car">
+      <img src="car03.jpg" alt="blue car">
+      <img src="car04.jpg" alt="white car">
+      <img src="car05.jpg" alt="red car">
+    </p>
   </section>
   <section>
     <p>
-      <span>Lorem ipsum</span> dolor sit amet consectetur, adipisicing elit. Esse mollitia nisi accusamus, volputas et
+      <span class="blue">Lorem ipsum</span> dolor sit amet consectetur, adipisicing elit. Esse mollitia nisi accusamus,
+      volputas et
       rem blanditis
       animi voluptatibus as ipsum? Reiciendis totam simplique pariatur voluptatum voluptatem dolor reprehenderit. Rerum,
       optio.
     </p>
   </section>
-  <footer>
+  <footer class="center">
     &copy; Copyright
   </footer>
 </body>
